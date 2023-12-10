@@ -1,0 +1,502 @@
+[
+    {
+        "title": "Cruel Summer",
+        "popularity": 99,
+        "sentiment": -0.956923508
+    },
+    {
+        "title": "Lovin On Me",
+        "popularity": 96,
+        "sentiment": 0.914787349
+    },
+    {
+        "title": "Paint The Town Red",
+        "popularity": 95,
+        "sentiment": -0.625
+    },
+    {
+        "title": "Snooze",
+        "popularity": 92,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Is It Over Now? (Taylor's Version) (From The Vault)",
+        "popularity": 94,
+        "sentiment": 0.0
+    },
+    {
+        "title": "I Remember Everything (feat. Kacey Musgraves)",
+        "popularity": 93,
+        "sentiment": 0.309915832
+    },
+    {
+        "title": "Fast Car",
+        "popularity": 88,
+        "sentiment": 0.561912573
+    },
+    {
+        "title": "greedy",
+        "popularity": 100,
+        "sentiment": -0.505324947
+    },
+    {
+        "title": "Last Night",
+        "popularity": 86,
+        "sentiment": -0.1079760625
+    },
+    {
+        "title": "Thinkin\u2019 Bout Me",
+        "popularity": 86,
+        "sentiment": -0.10742621000000001
+    },
+    {
+        "title": "Houdini",
+        "popularity": 93,
+        "sentiment": 0.0
+    },
+    {
+        "title": "White Horse",
+        "popularity": 81,
+        "sentiment": 0.123200587
+    },
+    {
+        "title": "Need A Favor",
+        "popularity": 17,
+        "sentiment": -0.380193842
+    },
+    {
+        "title": "Agora Hills",
+        "popularity": 93,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Water",
+        "popularity": 95,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Rich Baby Daddy (feat. Sexyy Red & SZA)",
+        "popularity": 88,
+        "sentiment": 0.641516885
+    },
+    {
+        "title": "All I Want for Christmas Is You",
+        "popularity": 98,
+        "sentiment": 0.1490535505
+    },
+    {
+        "title": "fukumean",
+        "popularity": 93,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Save Me (with Lainey Wilson)",
+        "popularity": 71,
+        "sentiment": 0.248096703
+    },
+    {
+        "title": "Dance The Night - From Barbie The Album",
+        "popularity": 93,
+        "sentiment": -0.126476981
+    },
+    {
+        "title": "vampire",
+        "popularity": 65,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Used To Be Young",
+        "popularity": 77,
+        "sentiment": -0.071533022
+    },
+    {
+        "title": "Lil Boo Thang",
+        "popularity": 87,
+        "sentiment": 0.0
+    },
+    {
+        "title": "MONACO",
+        "popularity": 96,
+        "sentiment": 0.0
+    },
+    {
+        "title": "First Person Shooter (feat. J. Cole)",
+        "popularity": 91,
+        "sentiment": 0.467771937
+    },
+    {
+        "title": "IDGAF (feat. Yeat)",
+        "popularity": 93,
+        "sentiment": 0.467771937
+    },
+    {
+        "title": "What Was I Made For? [From The Motion Picture \"Barbie\"]",
+        "popularity": 94,
+        "sentiment": 0.0328578075
+    },
+    {
+        "title": "Good Good",
+        "popularity": 75,
+        "sentiment": 0.943387349
+    },
+    {
+        "title": "Flowers",
+        "popularity": 50,
+        "sentiment": 0.0
+    },
+    {
+        "title": "My Love Mine All Mine",
+        "popularity": 98,
+        "sentiment": 0.2415868525
+    },
+    {
+        "title": "Stick Season",
+        "popularity": 93,
+        "sentiment": 0.023194955999999996
+    },
+    {
+        "title": "Last Christmas",
+        "popularity": 93,
+        "sentiment": -0.089475144
+    },
+    {
+        "title": "Now That We Don't Talk (Taylor's Version) (From The Vault)",
+        "popularity": 91,
+        "sentiment": -0.625
+    },
+    {
+        "title": "Dial Drunk (with Post Malone)",
+        "popularity": 86,
+        "sentiment": -0.33260212850000004
+    },
+    {
+        "title": "What It Is (Block Boy) (with Kodak Black)",
+        "popularity": 76,
+        "sentiment": -0.10036385600000002
+    },
+    {
+        "title": "Kill Bill",
+        "popularity": 86,
+        "sentiment": -0.637084171
+    },
+    {
+        "title": "Northern Attitude (with Hozier)",
+        "popularity": 84,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Jingle Bell Rock",
+        "popularity": 91,
+        "sentiment": 0.152059727
+    },
+    {
+        "title": "Lose Control",
+        "popularity": 84,
+        "sentiment": -0.2033057895
+    },
+    {
+        "title": "HARLEY QUINN",
+        "popularity": 95,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Daylight",
+        "popularity": 94,
+        "sentiment": 0.0
+    },
+    {
+        "title": "I KNOW ?",
+        "popularity": 91,
+        "sentiment": 0.178148758
+    },
+    {
+        "title": "Wild Ones (feat. Jelly Roll)",
+        "popularity": 83,
+        "sentiment": -0.01209653816666667
+    },
+    {
+        "title": "A Holly Jolly Christmas",
+        "popularity": 89,
+        "sentiment": 0.984606369
+    },
+    {
+        "title": "Barbie World (with Aqua) [From Barbie The Album]",
+        "popularity": 88,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Pretty Little Poison",
+        "popularity": 77,
+        "sentiment": -0.18074590466666662
+    },
+    {
+        "title": "World on Fire",
+        "popularity": 78,
+        "sentiment": -0.214818495
+    },
+    {
+        "title": "On My Mama",
+        "popularity": 74,
+        "sentiment": 0.0
+    },
+    {
+        "title": "\"Slut!\" (Taylor's Version) (From The Vault)",
+        "popularity": 90,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Standing Next to You",
+        "popularity": 98,
+        "sentiment": -0.126476981
+    },
+    {
+        "title": "500lbs",
+        "popularity": 85,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Strangers",
+        "popularity": 97,
+        "sentiment": -0.366912147
+    },
+    {
+        "title": "Say Don't Go (Taylor's Version) (From The Vault)",
+        "popularity": 88,
+        "sentiment": -0.21971226433333335
+    },
+    {
+        "title": "bad idea right?",
+        "popularity": 61,
+        "sentiment": -0.16686269433333334
+    },
+    {
+        "title": "Great Gatsby",
+        "popularity": 80,
+        "sentiment": 0.797954407
+    },
+    {
+        "title": "get him back!",
+        "popularity": 88,
+        "sentiment": 0.023194955999999996
+    },
+    {
+        "title": "Can't Have Mine (Find You A Girl)",
+        "popularity": 62,
+        "sentiment": -0.0984014225
+    },
+    {
+        "title": "Virginia Beach",
+        "popularity": 85,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Everything I Love",
+        "popularity": 67,
+        "sentiment": 0.917220858
+    },
+    {
+        "title": "Standing Room Only",
+        "popularity": 63,
+        "sentiment": -0.023520664999999996
+    },
+    {
+        "title": "Try That In A Small Town",
+        "popularity": 67,
+        "sentiment": -0.1133289525
+    },
+    {
+        "title": "The Painter",
+        "popularity": 77,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Cobra",
+        "popularity": 79,
+        "sentiment": 0.0
+    },
+    {
+        "title": "TRUCK BED",
+        "popularity": 70,
+        "sentiment": 0.152059727
+    },
+    {
+        "title": "QLONA",
+        "popularity": 88,
+        "sentiment": 0.0
+    },
+    {
+        "title": "TOO MUCH",
+        "popularity": 87,
+        "sentiment": 0.023194955999999996
+    },
+    {
+        "title": "PERRO NEGRO",
+        "popularity": 97,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Hey Driver (feat. The War and Treaty)",
+        "popularity": 85,
+        "sentiment": 0.17838237875000001
+    },
+    {
+        "title": "Style (Taylor's Version)",
+        "popularity": 88,
+        "sentiment": 0.192192596
+    },
+    {
+        "title": "Rich Men North of Richmond",
+        "popularity": 84,
+        "sentiment": 0.4665923835
+    },
+    {
+        "title": "MELTDOWN (feat. Drake)",
+        "popularity": 88,
+        "sentiment": 0.467771937
+    },
+    {
+        "title": "Bongos (feat. Megan Thee Stallion)",
+        "popularity": 81,
+        "sentiment": 0.467771937
+    },
+    {
+        "title": "Slime You Out (feat. SZA)",
+        "popularity": 81,
+        "sentiment": 0.14215568450000002
+    },
+    {
+        "title": "Seg\u00fan Qui\u00e9n",
+        "popularity": 88,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Que Onda",
+        "popularity": 95,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Now And Then",
+        "popularity": 83,
+        "sentiment": 0.192192596
+    },
+    {
+        "title": "Single Soon",
+        "popularity": 86,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Burn It Down",
+        "popularity": 68,
+        "sentiment": -0.32111953849999997
+    },
+    {
+        "title": "LALA",
+        "popularity": 95,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Bad Blood (Taylor's Version)",
+        "popularity": 82,
+        "sentiment": -0.992633864
+    },
+    {
+        "title": "Can\u2019t Catch Me Now - from The Hunger Games: The Ballad of Songbirds & Snakes",
+        "popularity": 89,
+        "sentiment": -0.17635195825000002
+    },
+    {
+        "title": "Turks & Caicos (feat. 21 Savage)",
+        "popularity": 81,
+        "sentiment": -0.1799512115
+    },
+    {
+        "title": "SkeeYee",
+        "popularity": 79,
+        "sentiment": 0.0
+    },
+    {
+        "title": "3D (feat. Jack Harlow)",
+        "popularity": 90,
+        "sentiment": 0.467771937
+    },
+    {
+        "title": "Out Of The Woods (Taylor's Version)",
+        "popularity": 85,
+        "sentiment": -0.183460568
+    },
+    {
+        "title": "Wildest Dreams (Taylor's Version)",
+        "popularity": 85,
+        "sentiment": 0.18933094
+    },
+    {
+        "title": "EL AMOR DE SU VIDA",
+        "popularity": 78,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Save Me The Trouble",
+        "popularity": 70,
+        "sentiment": -0.2677477475
+    },
+    {
+        "title": "Stars Like Confetti",
+        "popularity": 67,
+        "sentiment": 0.523268468
+    },
+    {
+        "title": "LALALALA",
+        "popularity": 87,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Seven (feat. Latto) (Explicit Ver.)",
+        "popularity": 90,
+        "sentiment": 0.309915832
+    },
+    {
+        "title": "Suburban Legends (Taylor's Version) (From The Vault)",
+        "popularity": 84,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Blank Space (Taylor's Version)",
+        "popularity": 87,
+        "sentiment": -0.205555683
+    },
+    {
+        "title": "We Don't Fight Anymore",
+        "popularity": 74,
+        "sentiment": -0.2556859265
+    },
+    {
+        "title": "Smurk Carter",
+        "popularity": 70,
+        "sentiment": 0.0
+    },
+    {
+        "title": "MI EX TEN\u00cdA RAZ\u00d3N",
+        "popularity": 88,
+        "sentiment": 0.0
+    },
+    {
+        "title": "Different 'Round Here",
+        "popularity": 74,
+        "sentiment": 0.192192596
+    },
+    {
+        "title": "But I Got A Beer In My Hand",
+        "popularity": 71,
+        "sentiment": 0.1349913305
+    },
+    {
+        "title": "Better Than Ever (feat. Rod Wave)",
+        "popularity": 70,
+        "sentiment": 0.4024765495
+    },
+    {
+        "title": "Soak City (Do it)",
+        "popularity": 78,
+        "sentiment": -0.162909152
+    }
+]
