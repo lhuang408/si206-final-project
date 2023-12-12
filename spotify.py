@@ -1,10 +1,10 @@
 import sqlite3
 import os
 import requests
+import secret
 
 playlist_id = '6UeSakyzhiEt4NB3UAd6NQ'
-access_token = 'BQBpjmgOOESaGLado5lK_64F9JWokSrnmf_LzUnC_xYsmiyuITUwAV2zzltww9f0XPn_aEykbVYJtsJXRZiQOkH-k-_bb6znex9kYshtAHmBqXYU_y4'
-
+access_token = secret.spotify_token
 def set_up_database():
     path = os.path.dirname(os.path.abspath(__file__))
     conn = sqlite3.connect(path+'/data.db')

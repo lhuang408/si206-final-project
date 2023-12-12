@@ -101,8 +101,8 @@ def popularity_and_sentiment(cur):
     d = []
     for item in output:
         d.append({"title": item[0], "popularity": item[1], "sentiment": item[2]})
-    write_json('popularity_and_sentiment', d)
-    
+    write_json('popularity_and_sentiment.json', d)
+
 
         
 

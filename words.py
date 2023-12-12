@@ -1,6 +1,7 @@
 import sqlite3
 import os
 import requests
+import secret
 def set_up_database():
     path = os.path.dirname(os.path.abspath(__file__))
     conn = sqlite3.connect(path+'/data.db')
@@ -20,7 +21,7 @@ def update_database(cur, conn):
         url = "https://twinword-twinword-bundle-v1.p.rapidapi.com/sentiment_analyze/"
         querystring = {"text":title}
         headers = {
-            "X-RapidAPI-Key": "1499853139msh6aa5ce7ebaebcbcp18e3a2jsnf6cdcf46c759",
+            "X-RapidAPI-Key": secret.words_token,
             "X-RapidAPI-Host": "twinword-twinword-bundle-v1.p.rapidapi.com"
         }
 
