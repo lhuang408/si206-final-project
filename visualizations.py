@@ -32,6 +32,7 @@ def avg_pop():
     for item in data.items():
         sentiment.append(item[0])
         popularity.append(item[1])
+    plt.figure()
     bars = plt.bar(sentiment, popularity)
     bars[0].set_color('lightcoral')
     bars[1].set_color('lemonchiffon')
@@ -40,7 +41,6 @@ def avg_pop():
     plt.xlabel('Sentiment')
     plt.ylabel('Average Popularity Score')
     plt.savefig('avg_pop.png')
-    plt.show()
     
 
 def category_freq():
@@ -51,12 +51,12 @@ def category_freq():
     sizes = []
     for item in data.items():
         sizes.append(int(item[1]))
+    plt.figure()
     plt.pie(sizes, explode=explode, labels=labels, colors=colors,
     autopct='%1.1f%%', shadow=True, startangle=140)
     plt.axis('equal')
     plt.title('Billboard Top 100 Hits Title Sentiments', pad=20)
     plt.savefig('category_freq.png')
-    plt.show()
 
 def artist_freq():
     data = read_data_from_file('artist_freq.json')
@@ -65,6 +65,7 @@ def artist_freq():
     for item in data.items():
         artists.append(item[0])
         frequency.append(item[1])
+    plt.figure()
     bars = plt.bar(artists, frequency)
     bars[0].set_color('lightcoral')
     bars[1].set_color('lemonchiffon')
@@ -73,7 +74,6 @@ def artist_freq():
     plt.xlabel('Artist Name')
     plt.ylabel('Number of Songs')
     plt.savefig('artist_freq.png')
-    plt.show()
 
 
 def popularity_and_sentiment():
@@ -81,19 +81,18 @@ def popularity_and_sentiment():
     x = []
     y = []
     colors = colors = np.random.rand(len(data))
-    print(colors)
     for item in data:
         x.append(item['sentiment'])
         y.append(item['popularity'])
+    plt.figure()
     plt.scatter(x, y, c=colors)
-    plt.title('Sentiment and Popularity Scatterplot')
+    plt.title('Popularity vs. Song Title Sentiment')
     plt.xlabel('Song Title Sentiment Score')
     plt.ylabel('Popularity Score')
     z = np.polyfit(x, y, 1)
     p = np.poly1d(z)
     plt.plot(x, p(x), color='black')
     plt.savefig('popularity_and_sentiment.png')
-    plt.show()
 
 
 def main():
