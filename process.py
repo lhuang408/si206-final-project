@@ -3,32 +3,34 @@ import os
 import json
 
 def set_up_database():
+    """
+    This function does not take in any parameters. It
+    establishes a connection to data.db and returns the
+    corresponding cursor.
+    """
     path = os.path.dirname(os.path.abspath(__file__))
     conn = sqlite3.connect(path+'/data.db')
     cur = conn.cursor()
     return cur
 
 def write_json(filename, dict):
-    '''
+    """
     Encodes dict into JSON format and writes
-    the JSON to filename to save the search results
-
-    Parameters
-    ----------
-    filename: string
-        the name of the file to write a cache to
-    
-    dict: cache dictionary
-
-    Returns
-    -------
-    None
-        does not return anything
-    '''  
+    the JSON to filename to save the search results. 
+    It takes in a filename and dict (cache dictionary)
+    as inputs. The function does not return anything.
+    """
     with open(filename, 'w') as f:
         f.write(json.dumps(dict, indent=4))
 
 def category_freq(cur):
+    """
+    This function takes in the database cursor as input.
+    It calculates the number of song titles in the Billboard 
+    Hot 100 that belonged in each sentiment category. The results 
+    are written to a JSON file. The function does not return
+    anything.
+    """
     cur.execute("SELECT score FROM words")
     output = cur.fetchall()
     title_d = {}
@@ -44,6 +46,12 @@ def category_freq(cur):
 
    
 def artist_freq(cur):
+    """
+    This function takes in the database cursor as input.
+    It calculates the number of songs in the Billboard Hot 
+    100 that belong to each artist. The results are written 
+    to a JSON file. The function does not return anything.
+    """
     cur.execute("""SELECT artist.name
                    FROM topTracks
                    JOIN artist ON 
@@ -58,6 +66,12 @@ def artist_freq(cur):
 
 
 def avg_pop(cur):
+    """
+    This function takes in the database cursor as input.
+    It calculates average popularity score of songs belonging 
+    in each sentiment category. The results are written 
+    to a JSON file. The function does not return anything.
+    """
     d = {}
     cur.execute("""SELECT topTracks.popularity
                    FROM topTracks
@@ -94,6 +108,13 @@ def avg_pop(cur):
     write_json('avg_pop.json', d)
 
 def popularity_and_sentiment(cur):
+    """
+    This function takes in the database cursor as input.
+    The function uses Join to gather popularity and song 
+    title sentiment score for each track in the table. 
+    The results are written to a JSON file. The function 
+    does not return anything.
+    """
     cur.execute("""SELECT topTracks.title, topTracks.popularity, words.score
                    FROM topTracks
                    JOIN words ON words.song_id = topTracks.song_id""")
@@ -102,9 +123,6 @@ def popularity_and_sentiment(cur):
     for item in output:
         d.append({"title": item[0], "popularity": item[1], "sentiment": item[2]})
     write_json('popularity_and_sentiment.json', d)
-
-
-        
 
 def main():
     cur = set_up_database()

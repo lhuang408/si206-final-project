@@ -6,6 +6,12 @@ import secret
 playlist_id = '6UeSakyzhiEt4NB3UAd6NQ'
 access_token = secret.spotify_token
 def set_up_database():
+    """
+    This function does not take in any parameters. It 
+    establishes a connection to data.db. It then creates 
+    two tables (artist and topTracks) if they do not already 
+    exist. The connection and corresponding cursor is returned.
+    """
     path = os.path.dirname(os.path.abspath(__file__))
     conn = sqlite3.connect(path+'/data.db')
     cur = conn.cursor()
@@ -24,6 +30,12 @@ def set_up_database():
     return cur, conn
 
 def get_data():
+    """
+    This function does not take in any parameters. It
+    calls the Spotify API to get data for the tracks in 
+    Billboard's Top 100 Hits. The function returns a list 
+    containing information for each track.
+    """
     url = f'https://api.spotify.com/v1/playlists/{playlist_id}'
     headers = {
         'Authorization': f'Bearer {access_token}',
@@ -34,6 +46,12 @@ def get_data():
     return playlist_data
     
 def update_database(cur, conn, data):
+    """
+    This function takes in the database cursor, database 
+    connection, and playlist data. It inserts information 
+    for 25 songs at a time into the topTracks table and 
+    artist table. The function does not return anything
+    """
     cur.execute("SELECT COUNT(*) FROM topTracks")
     size = cur.fetchone()[0]
     for i in range(size, size + 25):

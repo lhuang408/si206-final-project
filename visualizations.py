@@ -6,17 +6,9 @@ import numpy as np
 
 def read_data_from_file(filename):
     """
-    Reads data from a file with the given filename.
-
-    Parameters
-    -----------------------
-    filename: str
-        The name of the file to read.
-
-    Returns
-    -----------------------
-    dict:
-        Parsed JSON data from the file.
+    Reads data from a file with the given filename. 
+    It takes in a filename and returns parsed JSON 
+    data from the file.
     """
     full_path = os.path.join(os.path.dirname(__file__), filename)
     f = open(full_path)
@@ -26,6 +18,13 @@ def read_data_from_file(filename):
     return json_data
 
 def avg_pop():
+    """
+    This function does not take in any parameters. 
+    It reads data from avg_pop.json and creates a 
+    bar chart to visualize the average popularity of 
+    songs in each sentiment category. The function 
+    does not return anything.
+    """
     data = read_data_from_file('avg_pop.json')
     sentiment = []
     popularity = []
@@ -44,6 +43,12 @@ def avg_pop():
     
 
 def category_freq():
+    """
+    This function does not take in any parameters. 
+    It reads data from category_freq.json and creates a 
+    pie chart to visualize the number of songs in each 
+    sentiment category. The function does not return anything.
+    """
     data = read_data_from_file('category_freq.json')
     labels = 'Negative', 'Postive', 'Neutral'
     colors = ['lightcoral', 'skyblue', 'lemonchiffon']
@@ -59,6 +64,13 @@ def category_freq():
     plt.savefig('category_freq.png')
 
 def artist_freq():
+    """
+    This function does not take in any parameters. 
+    It reads data from artist_freq.json and creates a 
+    bar chart to visualize the artists with the most songs 
+    in the Billboard Hot 100. The function does not return 
+    anything.
+    """
     data = read_data_from_file('artist_freq.json')
     artists = []
     frequency = []
@@ -77,6 +89,13 @@ def artist_freq():
 
 
 def popularity_and_sentiment():
+    """
+    This function does not take in any parameters. 
+    It reads data from popularity_and_sentiment.json 
+    and creates a scatterplot to visualize the correlation 
+    between popularity and song title sentiment. The function 
+    does not return anything.
+    """
     data = read_data_from_file('popularity_and_sentiment.json')
     x = []
     y = []
